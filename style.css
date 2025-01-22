@@ -1,5 +1,147 @@
 body {
     margin: 0;
-    background: pink;
+    background: #202020;
     text-align: center;
+    font-family: Work Sans, sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    justify-self: left;
+    font-size: 100px;
+    line-height: 0;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.aboutme {
+    margin-top: 100px;
+
+}
+
+.columnleft {
+    float: left;
+    width: 50%;
+    justify-items: right;
+}
+
+.columnright {
+    float: left;
+    width: 50%;
+    justify-items: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+
+    display: flex;
+
+}
+
+.card {
+    
+    width: 40%;
+    border-radius: 15px;
+    position: relative;
+    width: 350px;
+    height: 550px;
+    display: block;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.cardHS {
+    position: relative;
+    background: #ffffff;
+    background-image: url(images/pattern.png);
+    background-size: 250%;
+    
+    color:#202020;
+    border-radius: 15px;
+    width: 400px;
+    height: 650px;
+    display: flex;
+    margin-right: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+
+
+}
+
+.headshot-container {
+    width: 300px;
+    height: 50%; 
+    background-image: url('/images/Christian\ Headshot.jpg');
+    background-size: 175%; 
+    background-position: 50% 20%; 
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-bottom: -15px;
+    margin-top: -50px;
+}
+
+.hsContent {
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-family: Work Sans, sans-serif;
+    color: #202020;
+
+
+}
+
+.icons {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.icons:hover {
+    background-color: #202020;
+    color: #ffffff;
+}
+
+.cardcontent {
+    margin-top: 35px;
+
+    margin-right: 50px;
+    text-align: left;
+    font-family: Work Sans, sans-serif;
+    color: #ffffff;
+}
+
+button {
+    background-color: #ffffff;
+    font-family: Work Sans, sans-serif;
+    font-weight: bold;
+    background-image: url('images/pattern.png');
+    background-size: 175%;
+    border: none;
+    color: #202020;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 100px;
+    width: 350px;
 }
