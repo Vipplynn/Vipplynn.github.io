@@ -9,11 +9,11 @@ body {
 h1 {
     justify-self: left;
     font-size: 100px;
-    line-height: 0;
+    line-height: 0.7;
 }
 
 p {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -52,25 +52,27 @@ p {
 }
 
 .card {
-    
-    width: 40%;
-    border-radius: 15px;
+    background: #202020;
+    width: 100%;
+    border:#202020;
     position: relative;
-    width: 350px;
-    height: 550px;
-    display: block;
+    height: 200px;
+    display:block;
     justify-content: left;
     align-items: left;
     flex-direction: column;
     overflow: hidden;
+    padding-bottom: 150px;
 }
 
 .cardPortrait {
-    position: relative;
+    top: 100px;
+    right: 1020px;
+    justify-self: right;
+    position: fixed;
     background: #ffffff;
     background-image: url(images/pattern.png);
     background-size: 250%;
-    
     color:#202020;
     border-radius: 15px;
     width: 400px;
@@ -93,8 +95,7 @@ p {
     background-position: 50% 20%; 
     background-repeat: no-repeat;
     border-radius: 15px;
-    margin-bottom: -15px;
-    margin-top: -50px;
+    margin-top: 0px;
 }
 
 .portraitContent {
@@ -118,19 +119,22 @@ p {
 
 
 .cardcontent {
-    margin-top: 35px;
 
-    margin-right: 50px;
     text-align: left;
     font-family: Work Sans, sans-serif;
     color: #ffffff;
+    margin-right: 30vmax;
+    position: relative;
+    margin-top: auto;
+    align-self:baseline;
+    height:350px;
 }
 
 
 .button1 {
     background-size: cover;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 350px;
     align-items: center;
     background-color: #FFFFFF;
     border: 2px solid #8c52ff;
@@ -210,4 +214,53 @@ a.button:active {
     box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
     color: rgba(0, 0, 0, 0.65);
     transform: translateY(0);
+}
+
+@media (max-width: 1920px) {
+    .cardPortrait {
+        width: 300px;
+        height: 500px;
+        top: 100px;
+        right: 720px;
+    }
+
+    .portrait-container {
+        margin-top: 20px;
+        width: 200px;
+        height: 50%; 
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .portraitContent {
+        width: 28vh;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-bottom:10px;
+    }
+
+    .icons {
+        color: #8c52ff;
+    }
+
+    .cardcontent {
+        height: 200px;
+        
+    }
+
+    .button1 {
+        background-size: cover;
+        height: 100px;
+        width: 200px;
+    }
 }
