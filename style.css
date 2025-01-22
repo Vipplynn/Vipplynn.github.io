@@ -65,7 +65,7 @@ p {
     overflow: hidden;
 }
 
-.cardHS {
+.cardPortrait {
     position: relative;
     background: #ffffff;
     background-image: url(images/pattern.png);
@@ -85,7 +85,7 @@ p {
 
 }
 
-.headshot-container {
+.portrait-container {
     width: 300px;
     height: 50%; 
     background-image: url('/images/Christian\ Headshot.jpg');
@@ -97,7 +97,7 @@ p {
     margin-top: -50px;
 }
 
-.hsContent {
+.portraitContent {
     margin-top: 0px;
     margin-left: 50px;
     margin-right: 50px;
@@ -115,10 +115,7 @@ p {
     gap: 60px;
 }
 
-.icons:hover {
-    background-color: #202020;
-    color: #ffffff;
-}
+
 
 .cardcontent {
     margin-top: 35px;
@@ -129,19 +126,88 @@ p {
     color: #ffffff;
 }
 
-button {
-    background-color: #ffffff;
-    font-family: Work Sans, sans-serif;
-    font-weight: bold;
-    background-image: url('images/pattern.png');
-    background-size: 175%;
-    border: none;
-    color: #202020;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+
+.button1 {
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 2px solid #8c52ff;
     border-radius: 15px;
-    font-size: 25px;
-    height: 100px;
-    width: 350px;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Work Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    position: relative;
+    text-decoration: none;
+    transition: all 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+}
+
+.button1:hover,
+.button1:focus {
+    border: 1px solid #8c52ff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(140, 82, 255, 0.65);
+
+}
+
+.button1:hover {
+    transform: translateY(-1px);
+}
+
+.button1:active {
+    background-color: #F0F0F1;
+    border-color: #8c52ff;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+a.button {
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Work Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    position: relative;
+    text-decoration: none;
+    transition: all 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+}
+
+a.button,
+a.button:focus {
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+
+}
+
+a.button:hover {
+    transform: translateY(-1px);
+}
+
+a.button:active {
+    background-color: #F0F0F1;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
 }
