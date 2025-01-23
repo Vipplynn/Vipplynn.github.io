@@ -73,6 +73,7 @@ p {
 
 .cardPortrait {
 
+    justify-self: right;
     position: fixed;
     background: #ffffff;
     background-image: url(images/pattern.png);
