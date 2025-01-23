@@ -66,8 +66,7 @@ p {
 }
 
 .cardPortrait {
-    top: 100px;
-    right: 1020px;
+
     justify-self: right;
     position: fixed;
     background: #ffffff;
@@ -90,7 +89,7 @@ p {
 .portrait-container {
     width: 300px;
     height: 50%; 
-    background-image: url('/images/Christian\ Headshot.jpg');
+    background-image: url('./images/portrait.jpg');
     background-size: 175%; 
     background-position: 50% 20%; 
     background-repeat: no-repeat;
@@ -119,7 +118,7 @@ p {
 
 
 .cardcontent {
-
+    
     text-align: left;
     font-family: Work Sans, sans-serif;
     color: #ffffff;
@@ -220,8 +219,6 @@ a.button:active {
     .cardPortrait {
         width: 300px;
         height: 500px;
-        top: 100px;
-        right: 720px;
     }
 
     .portrait-container {
