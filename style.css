@@ -4,7 +4,10 @@ body {
     text-align: center;
     font-family: Work Sans, sans-serif;
     color: #ffffff;
+    overflow-x: hidden;
 }
+
+
 
 h1 {
     justify-self: left;
@@ -52,6 +55,7 @@ p {
 }
 
 .card {
+    top: 100px;
     background: #202020;
     width: 100%;
     border:#202020;
@@ -62,7 +66,9 @@ p {
     align-items: left;
     flex-direction: column;
     overflow: hidden;
-    padding-bottom: 150px;
+    justify-self: left;
+    margin-left: 20px;
+
 }
 
 .cardPortrait {
@@ -117,7 +123,7 @@ p {
 
 
 .cardcontent {
-    
+    top: 50px;
     text-align: left;
     font-family: Work Sans, sans-serif;
     color: #ffffff;
@@ -125,7 +131,8 @@ p {
     position: relative;
     margin-top: auto;
     align-self:baseline;
-    height:350px;
+    height:650px;
+    margin-left: 20px;
 }
 
 
@@ -195,16 +202,18 @@ a.button {
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: baseline;
+    z-index: 1000;
 }
 
 a.button,
 a.button:focus {
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-
+    z-index: 1000;
 }
 
 a.button:hover {
     transform: translateY(-1px);
+    z-index: 1000;
 }
 
 a.button:active {
@@ -212,6 +221,7 @@ a.button:active {
     box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
     color: rgba(0, 0, 0, 0.65);
     transform: translateY(0);
+    z-index: 1000;
 }
 
 @media (max-width: 1920px) {
@@ -259,4 +269,16 @@ a.button:active {
         height: 100px;
         width: 200px;
     }
+}
+
+
+
+.projects {
+    padding-right: 140px;
+    justify-content: right;
+    display: flex;
+}
+
+.projects h1 {
+    margin-left : 20px;
 }
