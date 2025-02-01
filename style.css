@@ -1,3 +1,8 @@
+html {
+    overflow-x: hidden;
+}
+
+
 body {
     margin: 0;
     background: #202020;
@@ -5,6 +10,7 @@ body {
     font-family: Work Sans, sans-serif;
     color: #ffffff;
     overflow-x: hidden;
+    max-width: 100%;
 }
 
 
@@ -73,7 +79,7 @@ p {
 
 .cardPortrait {
 
-    position: fixed;
+
     background: #ffffff;
     background-image: url(images/pattern.png);
     background-size: 250%;
@@ -129,9 +135,9 @@ p {
     color: #ffffff;
     margin-right: 30vmax;
     position: relative;
-    margin-top: auto;
+    margin-top: 30px;
     align-self:baseline;
-    height:650px;
+    height:420px;
     margin-left: 20px;
 }
 
@@ -224,7 +230,198 @@ a.button:active {
     z-index: 1000;
 }
 
+
+.projects {
+    margin-top: 50px;
+    padding-right: 140px;
+    justify-content: right;
+    display: flex;
+}
+
+.projects h1 {
+    margin-left : 20px;
+}
+
+
+
+
+
+.box{
+
+    height: 1600px;
+    overflow: hidden;
+    padding: 10px 10px 50px 150px
+}
+
+.box ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    transition: all 0.5s linear;
+    top:0
+}
+
+.box ul:last-of-type{top:80px}
+
+.box ul:before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    border:1px dashed #8c52ff;
+    position: absolute;
+    top:0;
+    left:30px
+}
+
+.box ul li{
+    margin: 20px 60px 60px;
+    position: relative;
+    padding: 10px 20px;
+    background:#ffffff;
+    color:#202020;
+    border-radius: 10px;
+    line-height: 20px;
+    width: 55%
+}
+
+
+.box ul li > span{
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    border:1px solid #8c52ff;
+    position: absolute;
+    top:0;
+    left:-30px
+}
+
+
+
+.box ul li > span:before{top:-10px}
+.box ul li > span:after{top:95%}
+
+.box .title{
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 5px
+}
+
+.box .info:first-letter{text-transform: capitalize;line-height: 1.7}
+.box .info{
+    text-align: left;
+}
+
+.box .arrow{
+    margin-top: 0px;
+    font-size: 30px;
+
+    color: #8c52ff;
+    text-align: right;
+    margin-right: 0px
+}
+
+
+.box .time span{
+    text-align: right;
+    position: absolute;
+    left: -180px;
+    color:#fff;
+    font-size:85%;
+
+}
+
+
+.box .time {
+    justify-self: right;
+}
+.box .time span:first-child{top:-5px}
+
+
+
+svg{
+    width: 20px;
+    height: 20px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1920px) {
+    .col-md-6 {
+        justify-items: center;
+    }
+
+    .buttonCard {
+        margin-top: 100px;
+    }
+
+
     .cardPortrait {
         width: 300px;
         height: 500px;
@@ -260,25 +457,49 @@ a.button:active {
     }
 
     .cardcontent {
-        height: 200px;
+        height: 170px;
         
     }
 
     .button1 {
         background-size: cover;
         height: 100px;
-        width: 200px;
+        width: 28vh;
+    }
+
+
+    .projects {
+        margin-top: 500px;
     }
 }
 
 
 
-.projects {
-    padding-right: 140px;
-    justify-content: right;
-    display: flex;
+
+
+
+@media (max-width: 767px) {
+    .col-md-6 {
+        justify-items: center;
+    }
 }
 
-.projects h1 {
-    margin-left : 20px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

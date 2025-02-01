@@ -5,7 +5,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -13,8 +13,7 @@
 </head>
 <body>
     <div class = "row">
-        <div class="col-md-4"></div>
-        <div class="col-md-2">
+        <div class="col-md-6" style="justify-items: right;">
             <section class ="aboutme">
                 <div class="cardPortrait">
                     <div class="portrait-container" title="Portrait of Chrisitan"></div>
@@ -56,22 +55,75 @@
                         On my off time, I enjoy drawing, playing volleyball, and playing video games.
                     </p>
                 </div>
-                <div class="buttonCard" style="margin-top: 100px; margin-left: 20px; justify-self: left;">
-                    <button class="button1" role="button" style="background-image: url('images/pattern.png'); background-size: 175%;">SEE MY STUFF</button>
+                <div class="buttonCard" style="margin-left: 20px; justify-self: left;">
+                    <button class="button1" role="button" style="background-image: url('images/pattern.png'); background-size: 175%;" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'});">SEE MY STUFF</button>
             </div>
         </div>
     </div>
 
     
-    <section class="projects" style="margin-top: 300px; height: 910px;">
-        <div class="card" style="width: 800px; height: 800px;">
-            <h1>EXPERIENCE &</h1>
+    <section id="projects" class="projects" style="height: 3000px; overflow-y: hidden;">
+        <div class="col-md-6"></div>
+        <div class="card" style="width: 800px; height: auto;">
+            <h1>EXPERIENCE <span style="color:#8c52ff">&</span></h1>
             <h1 style="color: #323232;">PROJECTS</h1>
-            <div class="cardcontent" style = "width: 300px;">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div>
+            <div class="box">
+                <ul id="timeline">
+                    <li>
+                        <span></span>
+                        <div class="title">Science Instructor | Science A!ive</div>
+                        <div class="info">• Taught and facilitated STEM lessons and activities to children grade 1-8.<br><br>• Managed classroom logistics, ensuring safety during experiments and activities.<br><br>• Adapted teaching approaches to suit different learning styles.</div>
+                        <div class="arrow">↗</div>
+                        <div class="time">
+                            <span>Jun. 2024-Sep. 2024 <br></span>
+                            <span></span>
+                        </div>
+                    </li>
+                    <li>
+                        <span></span>
+                        <div class="title">Mountain Madness 3<sup>rd</sup> place winner | CSSS</div>
+                        <div class="info">• Collaborated with a multidisciplinary team to design and develop <em>Jake's Journey</em>, a 3D puzzle game in Unity<br><br>
+                            • Programmed a player movement system that dynamically adjusted movement direction based on camera
+                            orientation, enhancing gameplay complexity and user experience<br><br>
+                            • Produced original sound effects and soundtrack using FL Studio and vocal recordings, creating an immersive
+                            audio environment</div>
+                        <div class="arrow">↗</div>
+                        <div class="time">
+                            <span>Mar. 2024<br>C# | Unity</span>
+                            <span></span>
+                        </div>
+                    </li>
+                    <li>
+                        <span></span>
+                        <div class="title">Bank Hacks Winner 2024 | DNS club</div>
+                        <div class="info">• Designed and developed a real-time banking system in Python to process debit and credit transactions, ensuring
+                            fast and accurate updates to client accounts<br><br>
+                            • Implemented a client onboarding feature, enabling new users to create and manage accounts seamlessly<br><br>
+                            • Engineered a packet collection system to retrieve and display client banking information from a centralized
+                            server</div>
+                        <div class="arrow">↗</div>
+                        <div class="time">
+                            <span>Mar. 2024<br>Python</span>
+                            <span></span>
+                        </div>
+                    </li>
+                    <li>
+                        <span></span>
+                        <div class="title">Fall Hacks 3<sup>rd</sup> place winner | CSSS</div>
+                        <div class="info">• Collaborated with a team to design and develop Birge Adventure, an arcade-style game built in Unity<br><br>
+                            • Composed original sound effects and music using FL Studio, enhancing player engagement through immersive
+                            audio design<br><br>
+                            • Integrated an online leaderboard by syncing player data to a website, enabling real-time skill comparison among
+                            players
+                            </div>
+                        <div class="arrow">↗</div>
+                        <div class="time">
+                            <span>Oct. 2023<br>C# | Unity</span>
+                            <span></span>
+                        </div>
+                    </li>
+                </div> 
+                </ul>
         </div>
     </section>
 
