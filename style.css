@@ -317,7 +317,8 @@ a.button:active {
 .box .arrow{
     margin-top: 0px;
     font-size: 30px;
-
+    text-decoration: none;  
+    color: #8c52ff;
     text-align: right;
     margin-right: 0px
 }
