@@ -318,11 +318,15 @@ a.button:active {
     margin-top: 0px;
     font-size: 30px;
 
-    color: #8c52ff;
     text-align: right;
     margin-right: 0px
 }
 
+
+.arrow a{
+    text-decoration: none;  
+    color: #8c52ff;
+}
 
 .box .time span{
     text-align: right;
