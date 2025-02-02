@@ -248,7 +248,7 @@ a.button:active {
 
 .box{
 
-    height: 1600px;
+    height: 1750px;
     overflow: hidden;
     padding: 10px 10px 50px 150px
 }
@@ -291,7 +291,7 @@ a.button:active {
 
 .hide {
     position: fixed;
-    top: 30%;
+    top: 34%;
     left: 20%;
     width: 500px;
     height: auto;
@@ -313,7 +313,6 @@ a.button:active {
     opacity: 1;
     visibility: visible;
 }
-
 
 
 
@@ -381,67 +380,6 @@ svg{
     width: 20px;
     height: 20px
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
