@@ -1,5 +1,8 @@
 html {
     overflow-x: hidden;
+
+    scroll-behavior: smooth;
+
 }
 
 
@@ -13,7 +16,10 @@ body {
     max-width: 100%;
 }
 
-
+section {
+    padding-top: 80px; /* Adjust based on header height */
+    margin-top: -80px; /* Counteract padding so layout stays the same */
+}
 
 h1 {
     justify-self: left;
@@ -427,6 +433,67 @@ svg{
     bottom: -25px;
     width: 100%;
 }
+
+
+
+
+
+
+
+.site-header {
+    background-color: #202020; /* Dark background */
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-title {
+    font-size: 28px;
+    color: #ffffff;
+    
+    margin: 0;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #8c52ff; /* Purple accent */
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .nav-links a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
 
 
 
