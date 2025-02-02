@@ -93,6 +93,7 @@ p {
     align-items: center;
     flex-direction: column;
     overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 
 
 }
@@ -283,7 +284,8 @@ a.button:active {
     color:#202020;
     border-radius: 10px;
     line-height: 20px;
-    width: 55%
+    width: 55%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 
