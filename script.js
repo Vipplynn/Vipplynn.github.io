@@ -8,12 +8,12 @@ document.querySelectorAll('.box ul li').forEach(item => {
         if (imageSrc) {
             projectImage.src = imageSrc;
             projectImage.alt = imageAlt || "Project Screenshot";
-            hideContainer.classList.add('show'); // Add show class for fade-in
+            hideContainer.classList.add('show');
         }
     });
 
     item.addEventListener('mouseout', () => {
         const hideContainer = document.querySelector('.hide');
-        hideContainer.classList.remove('show'); // Remove show class for fade-out
+        hideContainer.classList.remove('show');
     });
 });

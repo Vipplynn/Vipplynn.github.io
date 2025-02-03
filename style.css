@@ -17,8 +17,8 @@ body {
 }
 
 section {
-    padding-top: 80px; /* Adjust based on header height */
-    margin-top: -80px; /* Counteract padding so layout stays the same */
+    padding-top: 80px;
+    margin-top: -80px; 
 }
 
 h1 {
@@ -38,6 +38,8 @@ p {
     align-items: center; 
     height: 100vh; 
 }
+
+/* About me Section */
 
 .aboutme {
     margin-top: 100px;
@@ -238,6 +240,7 @@ a.button:active {
 
 
 .projects {
+    overflow: visible;
     margin-top: 50px;
     padding-right: 140px;
     justify-content: right;
@@ -249,17 +252,18 @@ a.button:active {
 }
 
 
-
+/* Timeline Element in Projects section */
 
 
 .box{
-
-    height: 1750px;
+    min-height: 100vh;
+    height: auto; 
     overflow: hidden;
     padding: 10px 10px 50px 150px
 }
 
 .box ul{
+    padding-bottom: 100px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -387,11 +391,7 @@ svg{
     height: 20px
 }
 
-
-#skills h1 {
-    margin-top: 50px;
-    line-height: 0.1;
-}
+/* Site skills section */
 
 
 .skills-icons {
@@ -442,7 +442,7 @@ svg{
 
 
 
-
+/* Site Header */
 
 
 .site-header {
@@ -501,7 +501,7 @@ svg{
 
 
 
-
+/* Site Footer */
 
 
 .site-footer {
@@ -526,12 +526,14 @@ svg{
 }
 
 .footer-hr {
-    border: 1px solid #8c52ff; /* Thicker and purple */
+    border: 1px solid #8c52ff; 
     width: 80%;
-    margin-bottom: 20px; /* Adds space below */
+    margin-bottom: 20px;
 }
 
 
+
+/* Media queries for window sizing */
 
 /* Responsive for mobile */
 @media (max-width: 768px) {
@@ -619,23 +621,4 @@ svg{
         justify-items: center;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
