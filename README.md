@@ -14,8 +14,12 @@ For the future, I plan on iterating, bug fixing, and adding new features to this
 * Smooth scrolling when clicking on differect sections of the website
 * Responsive buttons when hovered
 
+# Technology Stack
+* HTML
+* CSS
+* JavaScript
+* Bootstrap (for grid layout)
 
----
 # Contact
 * Website: [Link to Portfolio Website](https://vipplynn.github.io/)
 * Email: [cac40@sfu.ca](mailto:cac40@sfu.ca)
