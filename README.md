@@ -7,7 +7,7 @@ Throughout programming the website I came across several roadblocks. The main di
 
 For the future, I plan on iterating, bug fixing, and adding new features to this website. For example, I plan on adding a JavaScript feature that fades in the umseen elements while scrolling down the page.
 
----
+
 # Features
 
 * Image preview feature that showcases the corresponding image on hover of each project or work experience item. When hovered, the item's image fades in and remains on screen while the cursor stays in the item's area. When the cursor leaves the area, the images then fades out.
@@ -16,11 +16,15 @@ For the future, I plan on iterating, bug fixing, and adding new features to this
 
 
 ---
+# Contact
+* Website: [Link to Portfolio Website](https://vipplynn.github.io/)
+* Email: [cac40@sfu.ca](mailto:cac40@sfu.ca)
+* LinkedIn: [Link to LinkedIn](https://www.linkedin.com/in/chochristian/)
+
 
 # License
 
 I chose the MIT license for my personal website because I was inspired by the layouts of other professional online portfolios and feel copywriting my work that was inspired by others is wrong. Furthermore, I am very proud of the overall look of my website and invite others to utilize my design for their own websites too. <br>
 
----
 
 
