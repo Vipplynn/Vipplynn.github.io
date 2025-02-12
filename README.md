@@ -9,3 +9,8 @@ Throughout programming the website I came across several roadblocks. The main di
 
 For the future, I plan on iterating, bug fixing, and adding new features to this website. For example, I plan on adding a JavaScript feature that fades in the umseen elements while scrolling down the page.
 
+---
+
+#License
+
+I chose the MIT license for my personal website because I was inspired by the layouts of other professional online portfolios and feel copywriting my work that was inspired by others is wrong. Furthermore, I am very proud of the overall look of my website and invite others to utilize my design for their own websites too.
